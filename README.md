@@ -35,3 +35,11 @@ open terminal and find the location of the script
 
 -to run a single test scenario enter
 >pytest -v -s test_qaexam.py::TestQAExam::test_PriceDescending
+
+>pytest -v -s test_qaexam.py::TestQAExam::test_PriceAscending
+
+>pytest -v -s test_qaexam.py::TestQAExam::test_AZ
+
+>pytest -v -s test_qaexam.py::TestQAExam::test_ZA
+
+>pytest -v -s test_qaexam.py::TestQAExam::test_clientWidth
